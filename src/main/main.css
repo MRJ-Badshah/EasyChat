@@ -1,0 +1,161 @@
+.MainContainer{
+    background-color: #2f3136;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+
+.OhNoProblem{
+    top: -30000px;
+    position: absolute;
+    background-color: red;
+    width: 100%;
+    height: 25px;
+    color: white;
+    transition: top 500ms
+}
+
+.TheFuckingGif{
+    width: 15px;
+}
+
+.TheError{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.Center{
+    background-color: #36393f;
+    position: absolute;
+    width: 50%;
+    height: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+}
+
+.ChatContent{
+    white-space: pre-line;
+}
+
+.ChatSection{
+    
+    flex: 1 1 auto;
+    padding: 20px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    word-break: break-word;
+    color: rgb(204, 204, 204);
+}
+
+.ChatSection::-webkit-scrollbar {
+    height: 90%;
+    width: 7px;
+    color: black;
+}
+.ChatSection::-webkit-scrollbar-thumb{
+    background: #2c2e31; 
+    border-radius: 200px;
+}
+
+.TypeSection{
+    position:relative;
+    display:block;
+    flex: 0 0 65px;
+}
+.SendMessageBox{
+    background-color: black;
+
+    display: block;
+    position: absolute;
+    margin-left: 2%;
+    width: 82%;
+    height: 30px;
+    top: 50%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+
+    font-size: 14px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 0px solid #40444b;
+    color: white;
+    background-color: #40444b;
+}
+
+.SendBuwuton{
+    display: block;
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    margin-right: 2%;
+    transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    font-size: 20px;
+    width: 35px;
+    height: 35px;
+    background-color: rgb(35, 140, 220);
+    border-radius: 1000px;
+    border: 0px solid rgb(35, 140, 220);
+}
+
+.BlurrBackground{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(7px);
+}
+
+.logincontainer{
+    background-color: #25282c;
+    position: absolute;
+    width: 30%;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.whatsurusername{
+    font-size: 25px;
+    margin-top: 20px;
+    color: wheat;
+}
+
+.loginusername{
+    background-color: #36393f;
+    border: 3px solid #1f2022;
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 50%;
+    color: white;
+    padding: 7px;
+}
+@media only screen and (max-width: 1000px) {
+    .Center{
+        width: 70%;
+    }
+    .logincontainer{
+        width: 70%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .Center{
+        width: 80%;
+    }
+    .logincontainer{
+        width: 80%;
+    }
+}

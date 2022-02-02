@@ -1,4 +1,4 @@
-# ⚠️⚠️Do not use this as a open project⚠️⚠️
+# ⚠️Do not use this as a open project⚠️
 There are still a lot of vulnerabilities
 
 

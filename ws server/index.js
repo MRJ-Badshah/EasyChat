@@ -9,7 +9,7 @@ connections = []
 ws.on('connection', function connection(ws) {
     connections.push(ws)
     ws.send(JSON.stringify(messages))
-    console.log(ws._socket.remoteAddress + '  ||  Someone just connected to the ws')
+    console.log('Someone just connected to the ws')
 
     ws.on('message', function message(data) {
         let message = data.toString()
